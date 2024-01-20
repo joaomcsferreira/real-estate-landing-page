@@ -3,6 +3,7 @@ import { Container } from "./style"
 import Header from "../Header/Header"
 import Banner from "../Banner/Banner"
 import Contact from "../Contact/Contact"
+import Projects from "../Projects/Projects"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Header />
       <Banner />
       <Contact />
+      <Projects />
     </Container>
   )
 }
