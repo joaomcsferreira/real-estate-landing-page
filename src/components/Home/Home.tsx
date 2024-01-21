@@ -4,6 +4,7 @@ import Header from "../Header/Header"
 import Banner from "../Banner/Banner"
 import Contact from "../Contact/Contact"
 import Projects from "../Projects/Projects"
+import Newsletter from "../Newsletter/Newsletter"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner />
       <Contact />
       <Projects />
+      <Newsletter />
     </Container>
   )
 }
